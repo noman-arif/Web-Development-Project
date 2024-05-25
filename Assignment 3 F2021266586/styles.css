@@ -1,0 +1,422 @@
+body {
+  padding-top: 56px; /* Padding for fixed navbar */
+}
+
+header.jumbotron.bg-image {
+  background: url('https://images.pexels.com/photos/1303862/pexels-photo-1303862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1://unsplash.com/photos/person-wearing-black-chronograph-watch-XjNI-C5G6mI?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash') no-repeat center center;
+  background-size: cover;
+  color: rgb(202, 26, 26);
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+  margin-bottom: 0px;
+}
+
+
+.display-4{
+  color: rgb(251, 255, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  font:bolder;
+
+}
+.jumbotron{
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/1303862/pexels-photo-1303862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1://images.pexels.com/photos/1300550/pexels-photo-1300550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+.lead{
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+}
+#about-me {
+  background-color: aquamarine;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 20px;
+}
+
+#about-me .profile-picture {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Skills Section */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Service {
+  color: #000000; /* Black color for the text "Best services for" */
+  background-color: transparent; /* White background */
+  padding: 0px;
+}
+.salam{
+  background-color: aquamarine;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 20px;
+}
+.Visual {
+  color: #ff0000; /* Red color for the text "Visual Perfection" */
+  font-weight: bold;
+}
+.services {
+  text-align: center;
+}
+.card2 {
+  background-color: #c2bdbd;
+  flex-basis: 300px;
+  margin: 20px 50px 20px 50px;
+  text-align: center;
+  /*border-radius: 15px;*/
+}
+.imagecard {
+  filter: invert(100%) sepia(1%) saturate(2%) hue-rotate(224deg)
+    brightness(105%) contrast(96%);
+  padding: 20px;
+  align-items: center;
+}
+
+
+/* Ambitions Section */
+#ambitions {
+  background-color: aquamarine;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 20px;
+
+}
+.container{
+  background-color: aqua;
+  max-width: fit-content;
+  background-size: cover;
+  margin: 0px;
+  align-content: center;
+}
+
+
+footer {
+  background-color: #01172e;
+  padding: 10px 0;
+  /*position: fixed;*/
+  width: 100%;
+  bottom: 0;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+footer p{
+  color: white;
+}
+.text-center-mt-4{
+  margin: 0%;
+}
+.footerData{
+ text-align: center;
+}
+
+.personDetail{
+  flex-basis: 250px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.personDetail{
+  background-color: #ffff5a;
+  flex-basis: 500px;
+  height: 100vh;
+  margin: 20px 50px 20px 50px;
+  text-align: center;
+  border-radius: 50px;
+}
+.imgF{
+  width: 80%;
+  height: 50%;
+  border-radius: 100%;
+  border: 2px solid black;
+  margin: 30px;
+
+}
+.Personalities{
+  background-color: #014288;
+}
+.Personalities h1{
+  text-align: center;
+  margin: 0px 50px 50px 50px;
+  color: red;
+}
+
+.personDetail p{
+  text-align: justify;
+  padding: 20px;
+}
+
+.citiesdiv{
+  background-color: #014288;
+}
+.select {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #014288;
+  
+}
+.details {
+ display: flex;
+ width: 99%;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+ /*background-color: #020202;*/
+ background-image: url(./image/Lahore.jpg);
+background-size:cover ;
+background-position: center;
+
+}
+.text-selection {
+ flex-wrap: wrap;
+ color: rgb(255, 251, 0);
+ font-family: 'Times New Roman', Times, serif;
+ font-size: x-large;
+ padding: 90px;
+ width: 50%;
+ text-decoration:solid;
+ text-align: center;
+}
+.text-selection p{
+  text-align: justify;
+  font-size: large;
+
+}
+.texxt{
+  padding: 20px;
+  background-color: #014288;
+}
+.video{
+  padding: 50px;
+}
+.detailxs {
+  display: flex;
+  width: 99%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+  /*background-color: #020202;*/
+  background-image: url(./image/istanbul.jpg);
+ background-size:cover ;
+ background-position: center;
+ 
+ }
+ .detailxsdubai {
+  display: flex;
+  width: 99%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+  /*background-color: #020202;*/
+  background-image: url(./image/dubia.avif);
+ background-size:cover ;
+ background-position: center;
+ 
+ }
+ .detailxslondon{
+  display: flex;
+  width: 99%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+  /*background-color: #020202;*/
+  background-image: url(./image/london.jpg);
+ background-size:cover ;
+ background-position: center;
+ }
+ .select h1{
+  text-align: center;
+  margin: 50px;
+  color: #ff0000;
+ }
+
+ .detailxsbad{
+  display: flex;
+  width: 99%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+  /*background-color: #020202;*/
+  background-image: url(./image/badshahi\ masjid.jpg);
+ background-size:cover ;
+ background-position: center;
+ }
+ .detailxshag{
+  display: flex;
+  width: 99%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+  /*background-color: #020202;*/
+  background-image: url(./image/hagia\ sophia.jpg);
+ background-size:cover ;
+ background-position: center;
+ }
+ .detailxspalm{
+  display: flex;
+  width: 99%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+  /*background-color: #020202;*/
+  background-image: url(./image/palm\ jumerih.jpg);
+ background-size:cover ;
+ background-position: center;
+ }
+
+ .contact{
+  position: relative;
+  width: 99.99%;
+  height: 82vh;
+  /* background-color: aquamarine; */
+  padding: 40px 100px;
+  display: flex;
+  background-color: #014288;
+}
+
+.contact .greet{
+  width: 50%;
+  text-align: right;
+  padding: 0 100px;
+}
+
+.contact .greet h1{
+  color: black;
+  margin-bottom: 30px;
+}
+
+.contact .greet h1 span{
+  color: rgb(198,7,7);
+}
+
+.contact .greet p{
+  color: rgb(113, 102, 102);
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.contact .form{
+  width: 50%;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: center;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.contact .form input:nth-child(1), select , textarea{
+  width: 100%;
+  border: 1px solid black;
+  padding: 0 10px;
+  outline: none;
+}
+
+.contact .form input:nth-child(2), input:nth-child(3){
+  width: 49.5%;
+  padding: 0 10px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.contact .form input, select{
+  margin-bottom: 10px;
+  height: 40px;
+  color: rgb(113, 102, 102);
+}
+
+.contact .form textarea{
+  padding: 10px;
+ 
+  font-size: 12px;
+  color:rgb(113, 102, 102)
+}
+
+.contact .form .submit{
+  bottom: 0;
+  left: 195px;
+  width: 200%;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: rgb(198,7,7);
+  transition: 0.5s;
+  margin-left: -100%;
+  margin-top: 15px;
+}
+
+.contact .form .submit:hover{
+  background-color: rgb(255, 7, 7);
+  transition: 0.5s;
+}
+
+
+@media only screen and  (max-width: 768px){
+  .contact{
+      display: block;
+      padding: 20px;
+  }
+
+  .contact .greet{
+      width: 100%;
+      text-align: center;
+      padding: 50px;
+      margin-bottom: 0;
+  }
+
+  .contact .form{
+      width: 100%;
+  }
+
+  .contact .form .submit{
+      width: 100%;
+      margin-left: 0;
+  }
+}
+.greet h2{
+  text-align: justify;
+}
+.greet p{
+  text-align: justify;
+}
